@@ -19,7 +19,7 @@ To create a comprehensive back-end structure that aggregates apartment listing d
 <br>
 <br>
 
-## How will we fuck this pig? (methods)
+## Methods
 Structuring our database:
 - Ensure APIs are working and sustainable.
 - Pipeline to a live database – best if using a cloud server for this multi-person project; look into options.
@@ -44,8 +44,8 @@ I think it will be a best practice to structure our addresses as 5 different col
 There is the possibility of using the .png files of images to quantify stuff. I think this is really tough to do, but would also be quite fun. That way we could find factores like, plenty of counter space, new looking apartment, tons of windows
 Recommendation systems aren’t even so much ML but we can always add ML projects with the data if we want later (forecasting pricing or availability)
 
-Alex Python Web Scrape Apartments Data
-Cyrus Tidy data up in R
+Alex Python Web Scrape Apartments Data\
+Cyrus Tidy data up in R\
 I think I’ll explore using a google maps API and reticulate for now
 
 <br>
@@ -66,7 +66,7 @@ Including the following features
 
 Next Steps:
 
-Come up with a Git repo name
-Decide if we should have the Git repo public or private. We can change this as the project progresses but they make you put in your PASSWORD for this also🥵
-Sketch idea for what we want our output to be
-Discuss how our workflow for this will go--what will be done in R and Python
+Come up with a Git repo name\
+Decide if we should have the Git repo public or private. We can change this as the project progresses but they make you put in your PASSWORD for this also🥵\
+Sketch idea for what we want our output to be\
+Discuss how our workflow for this will go--what will be done in R and Python\
