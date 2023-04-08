@@ -7,14 +7,14 @@ To create a comprehensive back-end structure that aggregates apartment listing d
 
 ## Data Sources
 1. Apartment Listing Data: 
-    - Apartments.com API
-    - Hotpads
+    - [Apartments.com API](https://api.apartments.com/v1/)
+    - [Hotpads](https://filenet.hotpads.com/+guides/Rental+Listings+Real-Time+Feed+Guide.pdf)
 2. Crime Data 
     - NIBRS (but we need to ensure we can access a live connection).
 3. Reviews
     - Yelp/Google Reviews API
 4. Miscellaneous 
-    - Google Maps API – need to check if we can easily access lists of, say, schools. Does have a free tier but may have costs after abundant usage.
+    - [Google Maps API](https://developers.google.com/maps/documentation/places/web-service/overview) – need to check if we can easily access lists of, say, schools. Does have a free tier but may have costs after abundant usage.
 
 <br>
 <br>
@@ -53,8 +53,8 @@ I think I’ll explore using a google maps API and reticulate for now
 
 ## What do we want our output to be?
 
-Maybe an app or website?
-I am pro making a shiny app
+Maybe an app or website?\
+I am pro making a [shiny app](https://shiny.rstudio.com/)\
 Including the following features
 - Walk Score
 - Bike Score
@@ -69,4 +69,4 @@ Next Steps:
 Come up with a Git repo name\
 Decide if we should have the Git repo public or private. We can change this as the project progresses but they make you put in your PASSWORD for this also🥵\
 Sketch idea for what we want our output to be\
-Discuss how our workflow for this will go--what will be done in R and Python\
+Discuss how our workflow for this will go--what will be done in R and Python
