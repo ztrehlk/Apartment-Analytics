@@ -35,9 +35,8 @@ Structuring our database:
 
 Drawing Insights:
 - Immediate: 
-    - What apartments available now match my criteria?
-    - What are the reviews of the landlord/leasing company?
-      - Highlighting topics of concern with word bucket techniques (maybe NLP down the line).
+    - What is the static look at the housing market?
+    - Can we notice any trends geographically?
 - Short/Medium-term: 
     - How have trends changed recently?
     - What are fair prices to pay for a given location?
@@ -45,35 +44,26 @@ Drawing Insights:
     - When is the best time to buy an apartment?
     - What prices/availability can we expect down the line?
 
-
-Pulling in all the info of apartments hopefully from an API
-I think it will be a best practice to structure our addresses as 5 different columns based on my experience with google maps
-There is the possibility of using the .png files of images to quantify stuff. I think this is really tough to do, but would also be quite fun. That way we could find factores like, plenty of counter space, new looking apartment, tons of windows
-Recommendation systems aren’t even so much ML but we can always add ML projects with the data if we want later (forecasting pricing or availability)
-
-Alex Python Web Scrape Apartments Data
-Cyrus Tidy data up in R
-I think I’ll explore using a google maps API and reticulate for now
-
 <br>
 <br>
 
 ## What do we want our output to be?
 
-Maybe an app or website?
-I am pro making a shiny app
-Including the following features
-- Walk Score
-- Bike Score
-- Bars score
-- Other scores
-- Crime of area
-- Distance to work--we can factore bike/walking/driving duration with gmaps api
-- Top features next to a location like The Davis, your mom, central park etc. 
+Firstly, a fundamentals analysis: what is at play in the supply and demand of housing? 
 
-Next Steps:
+Options ahead:
+- Dashboard/search tool for house listings that fit someones needs
+- Forecasting the housing market
+- Research Paper (if we want to swing something new and interesting, i.e. "There are clearly some problems in the banking system because this prices should be *X* but they are *Y*...yada yada" -- watch *The Big Short*).
 
-Come up with a Git repo name
-Decide if we should have the Git repo public or private. We can change this as the project progresses but they make you put in your PASSWORD for this also🥵
-Sketch idea for what we want our output to be
-Discuss how our workflow for this will go--what will be done in R and Python
+## Next Steps:
+
+- Data Gathering (APIs)
+- Data Cleansing
+- ER Diagram of our database
+  - Determine where we want to hold this database if it gets large (maybe Google Cloud? Would be interesting to see how to navigate files locally from the cloud).
+- Data Processing
+  - Organizing our tables to how we see fit, filtering out unimportant info, adjusting variables as we see fit.
+- EDA
+  - Visualize the data to understand basic insights of the housing market - heatmaps, correlation matrices, linear regressions, etc...
+
