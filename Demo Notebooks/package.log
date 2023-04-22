@@ -1,0 +1,10 @@
+Apr-21-23 14:21:40: INFO - *****Beginning Log*****
+Apr-21-23 14:21:40: INFO - Function setup started.
+Apr-21-23 14:21:40: INFO - Function setup took 0.10280429999966145 seconds.
+Apr-21-23 14:21:40: INFO - Function scrape started.
+Apr-21-23 14:21:41: WARNING - HTTPS ERROR: API link for https://www.redfin.com/zipcode/95064 could not be found.
+Apr-21-23 14:21:42: INFO - Function scrape took 1.610495599999922 seconds.
+Apr-21-23 14:21:42: INFO - Function scrape started.
+Apr-21-23 14:21:47: WARNING - HTTPS ERROR: API link for https://www.redfin.com/zipcode/94143 could not be found.
+Apr-21-23 14:21:47: WARNING - HTTPS ERROR: API link for https://www.redfin.com/zipcode/94188 could not be found.
+Apr-21-23 14:21:51: INFO - Function scrape took 9.052744800000255 seconds.
